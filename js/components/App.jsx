@@ -29,6 +29,9 @@ export default class App extends React.Component{
     }else if(dis_num == "+/-"){
       this.setState({dis_num: eval(this.state.result)*(-1)});
       this.setState({result : eval(this.state.result)*(-1)});
+    }else if(dis_num == "%"){
+      this.setState({dis_num: eval(this.state.result)*(0.01)});
+      this.setState({result : eval(this.state.result)*(0.01)});
     }else if(dis_num == "="){
       this.setState({dis_num: eval(this.state.result)});
       this.setState({result : eval(this.state.result)});
