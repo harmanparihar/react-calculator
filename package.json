@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --colors",
-    "build": "webpack",
+    "build": "webpack --config webpack.config.js",
+    "heroku-postbuild": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Harman",
@@ -23,7 +24,7 @@
     "babel-preset-react": "^6.11.0",
     "css-loader": "^1.0.0",
     "style-loader": "^0.23.0",
-    "webpack": "^1.13.1",
+    "webpack": "^1.15.0",
     "webpack-dev-server": "^1.14.1"
   }
 }
