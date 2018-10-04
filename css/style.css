@@ -41,3 +41,7 @@ body{
 .op{
   background-color: #FFB800;
 }
+.fade{
+  background-color: #ddd;
+  transition: background-color 1s;
+}
