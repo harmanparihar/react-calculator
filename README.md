@@ -1,7 +1,7 @@
 # react-calculator
 My first React project (a simple React calculator that mimics iOS calculator app)
 
-Dependencies:
+package.json contains:
 <pre>
 {
   "name": "react-starter",
