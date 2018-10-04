@@ -2,6 +2,7 @@
 My first React project (a simple React calculator that mimics iOS calculator app)
 
 Dependencies:
+<pre>
 {
   "name": "react-starter",
   "version": "1.0.0",
@@ -31,6 +32,6 @@ Dependencies:
     "webpack-dev-server": "^1.14.1"
   }
 }
-
+</pre>
 ##Run Command on CLI
 npm run dev
