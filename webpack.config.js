@@ -18,12 +18,4 @@ module.exports ={
       },
     ]
   },
-  resolve: {
-    extensions: ['', '.js', '.jsx']
-  },
-  devServer: {
-    inline: true,
-    contentBase: './dist',
-    port: 5000
-  }
 };
