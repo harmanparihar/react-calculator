@@ -33,5 +33,7 @@ Dependencies:
   }
 }
 </pre>
-##Run Command on CLI
+Run Command on CLI
+<pre>
 npm run dev
+</pre>
