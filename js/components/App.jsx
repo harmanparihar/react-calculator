@@ -3,7 +3,6 @@ import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import Buttons from './Buttons.jsx';
 import Display from './Display.jsx';
-import * as math from 'mathjs';
 
 export default class App extends React.Component{
   constructor(){
