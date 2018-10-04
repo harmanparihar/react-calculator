@@ -1,5 +1,6 @@
 # react-calculator
-My first React project (a simple React calculator that mimics iOS calculator app)
+My first React project. A simple calculator app that takes a arithematic expression as input evaluates using javascript eval() funtion.
+(**The expression needs to be valid in order to get the desired result)
 
 package.json 
 <pre>
