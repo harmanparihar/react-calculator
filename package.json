@@ -4,6 +4,7 @@
   "description": "first app",
   "main": "index.js",
   "scripts": {
+    "start": "npm run dev",
     "dev": "webpack-dev-server --progress --colors",
     "build": "webpack --config webpack.config.js",
     "heroku-postbuild": "webpack -p",
