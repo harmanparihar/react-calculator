@@ -17,5 +17,10 @@ module.exports ={
         }
       },
     ]
+  },
+  devServer: {
+    inline: true,
+    contentBase: './dist',
+    port: 5000
   }
 };
