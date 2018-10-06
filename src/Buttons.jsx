@@ -13,8 +13,8 @@ export default class Buttons extends React.Component{
       <Number buttonpress={this.props.buttonpress} val={8} classname={"num"}/>
       <Number buttonpress={this.props.buttonpress} val={9} classname={"num"}/>
       <Number buttonpress={this.props.buttonpress} val={"\u00D7"} classname={"num op"}/>
-      <Number buttonpress={this.props.buttonpress} val={5} classname={"num"}/>
       <Number buttonpress={this.props.buttonpress} val={4} classname={"num"}/>
+      <Number buttonpress={this.props.buttonpress} val={5} classname={"num"}/>
       <Number buttonpress={this.props.buttonpress} val={6} classname={"num"}/>
       <Number buttonpress={this.props.buttonpress} val={"-"} classname={"num op"}/>
       <Number buttonpress={this.props.buttonpress} val={1} classname={"num"}/>
