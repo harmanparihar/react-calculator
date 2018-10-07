@@ -1,7 +1,7 @@
 # react-calculator
 A simple react app that performs basic calculator operations.
 
-Input : Valid expression
+Input : Valid expression <br>
 Output : Result of that expression
 
 Here's a link to the app :
