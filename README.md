@@ -1,5 +1,4 @@
-# react-calculator
-### My first React App
+# react-calculator - My first React App
 A simple react app that performs basic calculator operations.
 
 Input : Valid expression (eg. 5+25-23/40)<br> 
