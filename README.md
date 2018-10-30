@@ -7,6 +7,8 @@ Output : Result of that expression
 <h4>Here's a link to the app </h4>
 https://wonderful-johnson-eade7e.netlify.com/
 
+
+<h4>Run the app </h4>
 To run the project on your local machine, clone the repository. <br>
 Open the folder in terminal and run the following command:<br>
 
