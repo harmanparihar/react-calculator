@@ -12,5 +12,5 @@ https://wonderful-johnson-eade7e.netlify.com/
 To run the project on your local machine, clone the repository. <br>
 Open the folder in terminal and run the following command:<br>
 
-<code>npm start</code>
+<code>npm start</code><br>
 Then open http://localhost:3000/ to see your app.
