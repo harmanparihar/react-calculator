@@ -4,7 +4,7 @@ A simple react app that performs basic calculator operations.
 Input : Valid expression (eg. 5+25-23/40)<br> 
 Output : Result of that expression
 
-Here's a link to the app :
+<h4>Here's a link to the app </h4>
 https://wonderful-johnson-eade7e.netlify.com/
 
 To run the project on your local machine, clone the repository. <br>
