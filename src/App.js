@@ -28,14 +28,29 @@ export default class App extends React.Component{
       this.setState({result : (this.state.dis_num + "*")});
       this.setState({dis_num : (this.state.dis_num + dis_num)});
     }else if(dis_num == "+/-"){
-      this.setState({dis_num: eval(this.state.result)*(-1)});
-      this.setState({result : eval(this.state.result)*(-1)});
+      try{
+        this.setState({dis_num: eval(this.state.result)*(-1)});
+        this.setState({result : eval(this.state.result)*(-1)});
+      }
+      catch{
+        alert("Invalid Expression")
+      };
     }else if(dis_num == "%"){
-      this.setState({dis_num: eval(this.state.result)*(0.01)});
-      this.setState({result : eval(this.state.result)*(0.01)});
+      try{
+        this.setState({dis_num: eval(this.state.result)*(0.01)});
+        this.setState({result : eval(this.state.result)*(0.01)});
+      }
+      catch{
+        alert("Invalid Expression")
+      };
     }else if(dis_num == "="){
-      this.setState({dis_num: eval(this.state.result)});
-      this.setState({result : eval(this.state.result)});
+      try{
+        this.setState({dis_num: eval(this.state.result)});
+        this.setState({result : eval(this.state.result)});
+      }
+      catch{
+        alert("Invalid Expression")
+      };
     }else {
       this.setState({dis_num : (this.state.dis_num + dis_num)});
       this.setState({result : (this.state.result + dis_num)});
